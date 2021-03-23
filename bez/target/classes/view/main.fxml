@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.MainController">
+    <Button fx:id="bitton" layoutX="27.0" layoutY="344.0" mnemonicParsing="false" onAction="#signIn" text="Button" />
+   <Label layoutX="141.0" layoutY="122.0" text="Label" />
+   <Label layoutX="141.0" layoutY="165.0" text="Label" />
+   <PasswordField fx:id="txtPass" layoutX="226.0" layoutY="161.0" />
+   <TextField fx:id="txtLogul" layoutX="226.0" layoutY="118.0" />
+   <Label fx:id="status" layoutX="273.0" layoutY="40.0" text="Label" />
+</AnchorPane>
